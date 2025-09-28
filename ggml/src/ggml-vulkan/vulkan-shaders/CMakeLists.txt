@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project("vulkan-shaders-gen" C CXX)
+
 find_package (Threads REQUIRED)
 find_program(GLSLC_EXECUTABLE glslc)
 if(NOT GLSLC_EXECUTABLE)
